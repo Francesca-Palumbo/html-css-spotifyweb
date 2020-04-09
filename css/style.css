@@ -261,7 +261,7 @@ main{
 }
 
 #profilo-phone{
-    padding-top: 0;
+    padding-top: 60px;
 }
 
 @media ( max-width: 499px ) and ( min-width: 100px ) {
@@ -278,18 +278,6 @@ main{
         margin-left: 0;
         padding-right: 2px;
     }
-}
-
-#visibile-phone #primo-x-phone a:hover{
-    color: #990073;
-}
-
-#primo-x-phone a:hover{
-    color: #990073;
-}
-
-.linkabile:hover{
-    color: #990073;
 }
 
 /* FINE MAIN */
@@ -313,8 +301,13 @@ footer{
 .immagine-u2{
     height: 100%;
     padding: 10px;
+    color: #990073;
+    background-image: url('../img/u2.jpg');
+    background-repeat: no-repeat;
 }
 
 #img-u2{
-    max-width: 80px;
+    width: 80px;
+    background-size: cover;
+    background-size: contain;
 }
