@@ -2,115 +2,277 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>Spotify</title>
         <link rel="stylesheet" href="css/style.css">
         <script src="https://kit.fontawesome.com/0dd3ee7ca1.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <main id="visibile-grande">
-            <!-- primo div con logo MAIN -->
-            <div class="main-spotify-sopra">
-                <span>
-                    <img class="spotify-img" src="img/spotify.png" alt="spotify">
-                </span>
-                <span class="main-spotify-text">
-                    <strong>Spotify</strong>
-                </span>
-            </div>
-            <!-- FINE primo div con logo MAIN -->
-            <!-- secondo div con le 3 icone -->
-            <div class="main-spotify-centro">
-                <div class="allineare-img-text">
+        <div class="container">
+            <main id="visibile-grande">
+                <!-- primo div con logo MAIN -->
+                <div class="main-spotify-sopra">
                     <span>
-                        <img class="grandezza-img" src="img/search.png" alt="search">
+                        <img class="spotify-img" src="img/spotify.png" alt="spotify">
                     </span>
-                    <span  id="cerca-text">
-                        <strong> <a href="#">Cerca</a> </strong>
+                    <span class="main-spotify-text">
+                        <strong>Spotify</strong>
                     </span>
                 </div>
-                <div class="allineare-img-text">
-                    <span>
-                        <img class="grandezza-img" src="img/home.png" alt="home">
-                    </span>
-                    <span class="home-text">
-                        <strong> <a href="#">Home</a> </strong>
-                    </span>
+                <!-- FINE primo div con logo MAIN -->
+                <!-- secondo div con le 3 icone -->
+                <div class="main-spotify-centro">
+                    <div class="allineare-img-text">
+                        <span>
+                            <img class="grandezza-img" src="img/search.png" alt="search">
+                        </span>
+                        <span  id="cerca-text">
+                            <strong> <a href="#">Cerca</a> </strong>
+                        </span>
+                    </div>
+                    <div class="allineare-img-text">
+                        <span>
+                            <img class="grandezza-img" src="img/home.png" alt="home">
+                        </span>
+                        <span class="home-text">
+                            <strong> <a href="#">Home</a> </strong>
+                        </span>
+                    </div>
+                    <div class="allineare-img-text">
+                        <span>
+                            <img class="grandezza-img" src="img/libreria.png" alt="libreria">
+                        </span>
+                        <span class="libreria-text">
+                            <strong> <a href="#">La tua libreria</a> </strong>
+                        </span>
+                    </div>
                 </div>
-                <div class="allineare-img-text">
-                    <span>
-                        <img class="grandezza-img" src="img/libreria.png" alt="libreria">
-                    </span>
-                    <span class="libreria-text">
-                        <strong> <a href="#">La tua libreria</a> </strong>
-                    </span>
+                <!-- FINE secondo div con le 3 icone -->
+                <!-- terzo div con le liste -->
+                <div class="main-spotify-lista">
+                    <ul id="lista-main">
+                        <li class="lista-spazio"> <a href="#">ascoltati di recente</a> </li>
+                        <li class="lista-spazio"> <a href="#">drapht</a> </li>
+                        <li class="lista-spazio"> <a href="#">artista</a> </li>
+                        <li class="lista-spazio"> <a href="#">playlist</a> </li>
+                    </ul>
                 </div>
-            </div>
-            <!-- FINE secondo div con le 3 icone -->
-            <!-- terzo div con le liste -->
-            <div class="main-spotify-lista">
-                <ul id="lista-main">
-                    <li class="lista-spazio"> <a href="#">ascoltati di recente</a> </li>
-                    <li class="lista-spazio"> <a href="#">drapht</a> </li>
-                    <li class="lista-spazio"> <a href="#">artista</a> </li>
-                    <li class="lista-spazio"> <a href="#">playlist</a> </li>
-                </ul>
-            </div>
-            <!-- FINE terzo div con le liste -->
-            <!-- quarto div con il profilo -->
-            <div class="main-tenere-sotto">
-                <div class="main-spotify-sotto">
-                    <span>
-                        <img id="img-install" src="img/install.png" alt="install">
-                    </span>
-                    <span id="install-text">
-                        <strong> <a href="#">Install App</a> </strong>
-                    </span>
+                <!-- FINE terzo div con le liste -->
+                <!-- quarto div con il profilo -->
+                <div class="main-tenere-sotto">
+                    <div class="main-spotify-sotto">
+                        <span>
+                            <img id="img-install" src="img/install.png" alt="install">
+                        </span>
+                        <span id="install-text">
+                            <strong> <a href="#">Install App</a> </strong>
+                        </span>
+                    </div>
+                    <div class="profile-sezione">
+                        <span>
+                            <img id="img-profile" src="img/profile.png" alt="install">
+                        </span>
+                        <span id="profile-text">
+                            <strong> <a href="#">fra.fra</a> </strong>
+                        </span>
+                    </div>
                 </div>
-                <div class="profile-sezione">
-                    <span>
-                        <img id="img-profile" src="img/profile.png" alt="install">
-                    </span>
-                    <span id="profile-text">
-                        <strong> <a href="#">fra.fra</a> </strong>
-                    </span>
-                </div>
-            </div>
-            <!-- FINE quarto div con il profilo -->
-            <!-- main visibile da 0 a 500px -->
-        </main>
-        <main id="visibile-phone">
-            <div id="versione-phone-logo">
-                <a href="#">
-                    <i class="fab fa-spotify h-regolata"></i>
-                </a>
-                <a href="#">
-                    <i class="fas fa-search h-regolata" ></i>
-                </a>
-                <a href="#">
-                    <i class="fas fa-home h-regolata" ></i>
-                </a>
-                <a href="#">
-                    <i class="fas fa-music h-regolata" ></i>
-                </a>
-            </div>
-            <div class="terzo-x-phone">
-                <div class="main-spotify-sotto h-regolata">
+                <!-- FINE quarto div con il profilo -->
+                <!-- main visibile da 0 a 500px -->
+            </main >
+            <main id="visibile-phone">
+                <div id="versione-phone-logo">
                     <a href="#">
-                        <i class="far fa-arrow-alt-circle-down"></i>
+                        <i class="fab fa-spotify h-regolata"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-search h-regolata" ></i>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-home h-regolata" ></i>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-music h-regolata" ></i>
                     </a>
                 </div>
                 <div class="terzo-x-phone">
-                    <a href="#">
-                        <i class="fas fa-user"></i>
-                    </a>
+                    <div class="main-spotify-sotto h-regolata">
+                        <a href="#">
+                            <i class="far fa-arrow-alt-circle-down"></i>
+                        </a>
+                    </div>
+                    <div class="terzo-x-phone">
+                        <a href="#">
+                            <i class="fas fa-user"></i>
+                        </a>
+                    </div>
                 </div>
+            </main>
+                <!--FINE main visibile da 0 a 500px -->
+            <div class="contenitore">
+                <header>
+                    <span id="contenitore-hamburger">
+                        <a href="#">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                    <div class="barra-con-lista">
+                        <ul id="ul-lista-linkabile">
+                            <li class="lista-linkabile"> <a href="#">in evidenza</a> </li>
+                            <li class="lista-linkabile"> <a href="#">podcast</a> </li>
+                            <li class="lista-linkabile"> <a href="#">classifiche</a> </li>
+                            <li class="lista-linkabile"> <a href="#">generi e mood</a> </li>
+                            <li class="lista-linkabile"> <a href="#">nuove uscite</a> </li>
+                            <li class="lista-linkabile"> <a href="#">scopri</a> </li>
+                        </ul>
+                    </div>
+                    <div class="primo-elenco-canzoni">
+                        <p class="titolo-elenco-canzoni">Recently played
+                        </p>
+                        <div class="container-grande-immagini">
+                            <div class="box">
+                                <div class="img-box">
+                                    <img src="img/system.jpg" alt="system">
+                                </div>
+                                <div class="details">
+                                    <div class="content">
+                                        <p class="gruppo-musicale"> <strong>System of a Down</strong> </p>
+                                        <p class="canzone">Sugar</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="img-box">
+                                    <img src="img/sugar-man.jpg" alt="sugar-man">
+                                </div>
+                                <div class="details">
+                                    <div class="content">
+                                        <p class="gruppo-musicale"> <strong>Rodriguez</strong> </p>
+                                        <p class="canzone">Sugar Man</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="img-box">
+                                    <img src="img/rino.jpg" alt="rino">
+                                </div>
+                                <div class="details">
+                                    <div class="content">
+                                        <p class="gruppo-musicale"> <strong>Rino Gaetano</strong> </p>
+                                        <p class="canzone">A mano a mano</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="img-box">
+                                    <img src="img/foo-fighters.jpg" alt="foo-fighters">
+                                </div>
+                                <div class="details">
+                                    <div class="content">
+                                        <p class="gruppo-musicale"> <strong>Foo Fighters</strong> </p>
+                                        <p class="canzone">The Pretender</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="img-box">
+                                    <img src="img/queen.jpg" alt="queen">
+                                </div>
+                                <div class="details">
+                                    <div class="content">
+                                        <p class="gruppo-musicale"> <strong>Queen</strong> </p>
+                                        <p class="canzone">i want to break free</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="img-box">
+                                    <img src="img/doors.jpg" alt="system">
+                                </div>
+                                <div class="details">
+                                    <div class="content">
+                                        <p class="gruppo-musicale"> <strong>The Doors</strong> </p>
+                                        <p class="canzone">Alabama Song</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="img-box">
+                                    <img src="img/division.jpg" alt="division">
+                                </div>
+                                <div class="details">
+                                    <div class="content">
+                                        <p class="gruppo-musicale"> <strong>Joy Division</strong> </p>
+                                        <p class="canzone">Love will tear us apart</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="img-box">
+                                    <img src="img/acdc.jpg" alt="acdc">
+                                </div>
+                                <div class="details">
+                                    <div class="content">
+                                        <p class="gruppo-musicale"> <strong>AC DC</strong> </p>
+                                        <p class="canzone">back in black</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="primo-elenco-canzoni">
+                        <p class="titolo-elenco-canzoni">Creato per te
+                        </p>
+                        <div class="container-grande-immagini">
+                            <div class="box">
+                                <div class="img-box">
+                                    <img src="img/tove.jpg" alt="tove">
+                                </div>
+                                <div class="details">
+                                    <div class="content">
+                                        <p class="gruppo-musicale"> <strong>Tove Lo</strong></p>
+                                        <p class="canzone">Habits</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="img-box">
+                                    <img src="img/incubus.jpg" alt="incubus">
+                                </div>
+                                <div class="details">
+                                    <div class="content">
+                                        <p class="gruppo-musicale"> <strong>Incubus</strong> </p>
+                                        <p class="canzone">Wish you were here</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="img-box">
+                                    <img src="img/mad.jpg" alt="mad">
+                                </div>
+                                <div class="details">
+                                    <div class="content">
+                                        <p class="gruppo-musicale"> <strong>Gary Jules</strong> </p>
+                                        <p class="canzone">Mad world</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="img-box">
+                                    <img src="img/nirvana.jpg" alt="nirvana">
+                                </div>
+                                <div class="details">
+                                    <div class="content">
+                                        <p class="gruppo-musicale"> <strong>Nirvana</strong> </p>
+                                        <p class="canzone">Come As You Are</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
             </div>
-        </main>
-            <!--FINE main visibile da 0 a 500px -->
-        <div class="contenitore">
-
+            <!--inizio footer -->
         </div>
-        <!--inizio footer -->
         <footer>
             <div class="contenitore-immagine-u2">
                 <img id="img-bono" src="img/u2.jpg" alt="u2">
