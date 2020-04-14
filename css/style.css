@@ -7,7 +7,7 @@
 /* MAIN */
 
 main{
-    height: calc( 100vh - 100px );
+    height: calc( 100vh - 80px );
     width: 16%;
     background-color: black;
     padding-bottom: 0;
@@ -470,7 +470,7 @@ footer i{
 /* contenitore con immagini */
 
 .contenitore{
-    height: calc( 100vh - 100px );
+    height: calc( 100vh - 80px );
     background-image: url('../img/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
