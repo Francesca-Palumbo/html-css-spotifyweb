@@ -221,7 +221,7 @@ main{
 
 #visibile-phone{
     width: 20%;
-    height: calc( 100vh - 100px );
+    height: calc( 100vh - 80px );
     background-color: black;
 }
 
@@ -297,7 +297,6 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: center;
-    position: fixed;
 }
 
 footer i{
